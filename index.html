@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" media="screen and (max-width: 1280px)"/>
+  <script defer src= "https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+  
+   <title>Geo-Search | Official Homepage</title>
+   <link rel="stylesheet" href="css/style.css" language="text/javascript">
+   <script src="https://api-maps.yandex.ru/2.1/?apikey=7cc5b3a6-18f6-48de-87f5-017ef4c04a40&lang=en_US" type="text/javascript"></script>
+   <script src="http://api.openweathermap.org/data/2.5/find?q=AIzaSyBogBKlQDn1W-Xch5wh0w4oabydSVH-Y_M&lang=en_US" type="text/javascript">
+   </script>
+   </head>
+<body>
+  <header>
+  <div class="topnav">
+  <a class="active" href="#home">Home</a>
+  <a href="index3.html">About</a>
+  <a href="index4.html">Contact</a>
+  <a href="index5.html">Services</a>
+    <div class="search-container">
+    <form action="/index2.html">
+      <input type="text" placeholder="Search." name="search">
+      <button type="submit"><i class="fa fa-search"></i></button>
+    </form>
+  </div>
+</div>
+</header>
+<div class="header">
+  <h2>Maristel Geo-Search</h2>
+</div>
+<div>
+  <p>Geo Search is a way to filter and sort results by distance or around certain geo-locations. You can limit your results to a street, to a city or cities, to one or more parts of the world. You can sort your results according to how near or far they are to a certain defined geolocation.</p>
+  <p>Geo offers you various possibilities.</p>
+</div>
+<ul>
+  <li><p><a  href="https://www.worldometers.info/geography/alphabetical-list-of-countries/">alphabetical-list-of-countries</a></p></li>
+</ul>
+<img src="img/geosearch.jpg" alt="World in its circular form" title="World Map">  
+</div>
+<div>
+<!-- <div class="menu">
+</div> --> 
+</header>
+    <center>
+				<form method="post" action="" id='form'>
+            <input type="text"  id="mapsearch" placeholder=" Search your City or State here" focus=""><br>	
+            <i class="fas fa-search"><input type="submit" name="submit" value="Get Weather" id="submit" ></i>
+          </form>
+          </center>
+          <div class='feedback'>
+              <div id="card">
+            </div>
+            <div class="fb-share-button" data-href="#" data-layout="button" data-size="large"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fgoogle.com%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>     		  
+</div>
+	<div>
+  <div id="map" style="width: 600px; height: 400px"></div>
+ 
+</body>
+<script type="text/javascript">
+  // The ymaps.ready() function will be called when
+  // all the API components are loaded and the DOM tree is generated.
+  ymaps.ready(init);
+  function init(){ 
+      // Creating the map.    
+      var myMap = new ymaps.Map("map", {
+          // The map center coordinates.
+          // Default order: “latitude, longitude”.
+          // To not manually determine the map center coordinates,
+          // use the Coordinate detection tool.
+          center: [55.76, 37.64],
+          // Zoom level. Acceptable values:
+          // from 0 (the entire world) to 19.
+          zoom: 7
+      });
+  }
+  
+</script>
+<script src="scripts.js"></script> 
+<footer class="footer">
+  <center>Powered by <a href="https://https://github.com/maristel/Geo-Search">Maristel</a>
+    <a href="#"><img src="img/facebook.png"></a>
+    <a href="#"><img src="img/twitter.png" ></a>
+    </center>
+</footer>
+</div>
+</html>
