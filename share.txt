@@ -1,0 +1,4 @@
+
+
+5. User can share a map of the places of interest and its local weather
+conditions to Facebook.
