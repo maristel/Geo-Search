@@ -1,0 +1,4 @@
+
+
+2. User can view a map of a place with a marker identifying the location of
+the place of interest.

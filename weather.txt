@@ -1,0 +1,3 @@
+
+3. User can see the local weather conditions (wind speed, temperature,
+humidity and the current weather condition) of the place of interest .
