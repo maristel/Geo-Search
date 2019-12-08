@@ -1,0 +1,2 @@
+
+4.User can convert the temperature to either Celsius or Fahrenheit.
